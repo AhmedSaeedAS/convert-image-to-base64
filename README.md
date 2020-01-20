@@ -1,5 +1,5 @@
 ## About this project
-This is ReactJs project that take image as imput and convert it into base64.
+This is React Js project that take image as imput and convert it into base64.
 After uploading the image, you can view the base64 in web console
 
 ### `npm start`

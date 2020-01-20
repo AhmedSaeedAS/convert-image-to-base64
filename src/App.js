@@ -33,7 +33,8 @@ function App() {
         <label className="custom-file-label" >{image.file.name ? image.file.name : 'Choose file'}</label>
         <div style={{ display: "flex", marginTop: "20px" }} >
           {viewImage ? <img src={viewImage} alt=""></img> : ''}
-          {viewImage ? <div><h3 style={{ textAlign: "center " }}>Base64</h3><textarea style={{ width: "900px", height: "200px" }}>{viewImage}</textarea></div> : ''}
+          {viewImage ? <div><h3 style={{ textAlign: "center " }}>Base64</h3>
+            <textarea style={{ width: "900px", height: "200px" }} value={viewImage}></textarea></div> : ''}
         </div>
       </div>
     </div>
